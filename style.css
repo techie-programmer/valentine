@@ -72,6 +72,16 @@ h1 {
   to { transform: translateY(-100vh); }
 }
 
+.container {
+  position: relative;
+  z-index: 10;
+}
+
+.hearts {
+  position: absolute;
+  z-index: 1;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
